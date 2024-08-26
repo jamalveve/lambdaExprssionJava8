@@ -1,0 +1,41 @@
+what is Streams?
+->Streams in Java, introduced in Java 8, 
+->facilitates the processing of collections in a declarative and functional style. 
+->They support various operations like filtering, mapping, and reducing,
+->when manipulating with data ,  developers can write concise and expressive code using streams
+
+-> They do not modify the underlying data structure(actuall collection)oroginal data source; instead,
+the take the data to streams and then do operation over the streams so stream acts like pipleline
+
+
+Benefits of Using Streams:
+The benefits of using streams include 
+->improved readability through clear and concise code, 
+->the ability to handle complex operations with ease, 
+->and the potential for parallel processing which can enhance performance for large datasets.
+
+Stream
+*******
+Stream is an interface,it is an api which has all the stream methods to invoke this we will
+ise stream()  method which is provided by Collection Interface api
+
+
+The stream() Method
+********************
+The stream() method is a part of the Java Collection API, 
+->utilized to convert a collection into a stream.
+-> This method can be called on any collection type, 
+such as List, Set, or Map, and 
+->it enables the application of stream operations.
+ For example, invoking the  stream methods (such as filtering and mapping, which provide a more readable and concise form of code 
+ compared to traditional loops.)on a list/set/map this stream()  methods allows developers 
+ to process the elements using various stream operations.
+
+ 
+ 
+ To work ith lambada exprssion stream has two mechnaism:
+ *********************************************************8
+ 1) filter->works with predicate
+ 2)map->consumer
+ 
+ 
